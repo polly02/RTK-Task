@@ -4,7 +4,7 @@ import { calculate } from '../slice/mathSlice';
 
 function Math() {
     const count = useSelector(state => state.math.value)
-    const [ input, setInput ] = useState('')
+    const [input, setInput] = useState('')
     const dispatch = useDispatch()
 
     return (

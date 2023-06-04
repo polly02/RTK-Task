@@ -4,7 +4,7 @@ import mathSlice from '../slice/mathSlice'
 
 export default configureStore({
     reducer: {
-        counter: counterSlice, 
+        counter: counterSlice,
         math: mathSlice
     }
 })
