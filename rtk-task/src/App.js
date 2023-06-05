@@ -1,6 +1,7 @@
 import Counter from "./Page/Counter";
 import Email from "./Page/Email";
 import Math from "./Page/Math";
+import Theme from "./Page/Theme";
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       {/* <Counter></Counter> */}
       {/* <Math></Math> */}
-      <Email></Email>
+      {/* <Email></Email> */}
+      <Theme></Theme>
     </>
   );
 }
