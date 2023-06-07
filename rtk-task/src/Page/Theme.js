@@ -7,18 +7,17 @@ const styles = {
     },
     dark: {
         margin: '3% auto',
-        width: '800px',
         height: '400px',
-        background: 'pink',
-        border: '3px solid #ccc',
+        background: ' rgb(0, 166, 255)',
     },
     light: {
         margin: '3% auto',
-        width: '800px',
         height: '400px',
-        background: '#ECF9FF',
-        border: '3px solid #ccc',
+        background: 'rgb(0, 32, 50)',
     },
+    button: {
+        margin: '100px 575px'
+    }
 }
 
 function Theme() {
@@ -27,9 +26,9 @@ function Theme() {
 
     return (
         <>
-            <h1 style={styles.h}>THEME</h1>
             <div style={styles[bool ? 'dark' : 'light']}>
-                <button onClick={() => dispatch(change())}>поменять тему</button>
+                <h1 style={styles.h}>THEME</h1>
+                <button style={styles.button} onClick={() => dispatch(change())}>поменять тему</button>
             </div>
         </>
     )
